@@ -1,0 +1,130 @@
+.header{
+    background-color: cadetblue;
+
+}
+.container{
+    height: 300vh;
+}
+.kost{
+    height: 100px;
+}
+.dropdown{
+    width: 50px;
+    height: 50px;
+    background-color: white;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 3px;
+    cursor: pointer;
+    transition: .5s;
+
+}
+.dropdown:hover .menu{
+    opacity: 1;
+    display: block;
+}
+.menu{
+
+    position: absolute;
+    background-color: white;
+    margin-top: 80px;
+    width: 120px;
+    border-radius: 30px;
+    border: 2px solid black;
+    display: none;
+
+}
+
+.menu .col{
+    cursor: pointer;    
+}
+
+.menu .col:hover{
+    text-decoration: underline;
+}
+.icon_bar{
+    width: 60%;
+    height: 3px;
+    border-radius: 30px;
+    background-color: cadetblue;
+    cursor: pointer;
+
+}
+.dropdown:hover{
+
+
+}
+.header .col{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+.logo{
+    font-size: 40px;
+    font-weight: bold;
+    color: white;
+}
+.main{
+    width: 100%;
+
+}
+.main .row{
+    padding: 40px;
+}
+.main .col{
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.block_title{
+    text-align: center;
+}
+.main .block_image{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 80%;
+    height: 120px;
+    background:url("./jackal.jpg");
+    background-attachment: fixed;
+}
+.block_image_text{
+    width: 100%;
+    text-align: start;
+    padding-bottom: 20px;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.574);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-family: var(--bs-body-font-family);
+    font-size: 25px;
+
+}
+.background{
+    width: 100%;
+    height: auto;
+    background: url('./jackal.jpg');
+
+    background-size: contain;
+}
+button{
+    border: none;
+    background-color: rgb(221, 169, 73);
+    padding: 5px;
+}
+.leopard{
+    background:url("./leopard.jpg");
+
+}
+.leopard_attachment{
+    background:url("./leopard.jpg");
+    background-attachment: fixed;
+    background-size: 100%;
+}
